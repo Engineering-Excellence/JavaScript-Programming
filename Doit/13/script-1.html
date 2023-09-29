@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Change Font Color</title>
+    <link rel="icon" href="#">
+    <style>
+        body {
+            text-align: center;
+        }
+
+        #heading {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="heading">Inner JavaScript</h1>
+    <p id="text">Click the text above</p>
+
+    <script>
+        let heading = document.querySelector('#heading')
+        heading.onclick = () => {
+            heading.style.color = 'red'
+        }
+    </script>
+</body>
+
+</html>
