@@ -24,6 +24,7 @@ rl.question('1-마케팅, 2-개발, 3-디자인\n관심 세션을 선택해주�
             break
         default:
             console.error('잘못된 입력입니다.')
+            break
     }
 
     rl.close()
