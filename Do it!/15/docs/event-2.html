@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>버튼을 클릭하면 알림 창 표시하기</title>
+    <link rel="icon" href="#">
+    <script type="text/javascript" defer>
+        'use strict'
+        const changeBg = color => window.document.querySelector('#result').style.backgroundColor = color
+    </script>
+</head>
+
+<body>
+<div id="result">
+    <ul>
+        <li><a href="#" onclick="changeBg('green')">Green</a></li>
+        <li><a href="#" onclick="changeBg('orange')">Orange</a></li>
+        <li><a href="#" onclick="changeBg('purple')">Purple</a></li>
+    </ul>
+</div>
+</body>
+
+</html>
