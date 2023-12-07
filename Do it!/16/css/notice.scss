@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+#content {
+  border: 2px double skyblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+ul {
+  margin-left: 15px;
+  list-style-type: none;
+
+  li {
+    margin: 10px 5px;
+  }
+}
+
+button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
